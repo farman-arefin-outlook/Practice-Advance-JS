@@ -17,5 +17,10 @@ addButton.addEventListener('click', function () {
 
 
     button.classList.add('btn', 'btn-primary', 'task-button');
-    div.classList.add()
+    div.classList.add("card", "p-3", "border", "mt-1", "single-task");
+    div.appendChild(para);
+    div.appendChild(button);
+
+    taskList.appendChild(div);
+    taskInput.value = '';
 });
